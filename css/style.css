@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+
+/* COMMON */
+body{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+}
+
+.container-jumbo-and-footer{
+
+}
+
+.main-container{
+
+}
+
+img{
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.default-links{
+    text-decoration: underline;
+}
+
+/* common columns classes */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col{
+    float: left;
+}
+
+/* common buttons classes */
+.btn{
+    display: inline-block;
+    line-height: normal;
+    font-size: 12px;
+}
+
+.btn-blue{
+    background-color: #0061ff;
+    color: white;
+}
+
+.btn-small{
+    padding: 5px 15px;
+}
+
+.btn-large{
+    padding: ;
+}
+
+/* HEADER */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    line-height: 80px;
+}
+
+header ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a{
+    color: black;
+}
+
+header li:hover{
+    border-bottom: 2px solid black;
+}
+
+/* logo */
+.col-logo{
+    width: 10%;
+}
+
+.col-logo img{
+    vertical-align: middle;
+    padding: 0 20px;
+}
+
+/* menu */
+.col-menu{
+    width: 30%;
+}
+
+/* contact */
+.col-contact{
+    width: 55%;
+    text-align: right;
+}
+
+/* start */
+.col-start{
+    width: 5%;
+}
+
+
+
+
+/* MAIN */
+
+/* FOOTER */
