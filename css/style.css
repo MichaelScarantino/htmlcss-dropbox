@@ -57,10 +57,6 @@ a{
     text-decoration: underline;
 }
 
-/* .f-s-12{
-    font-size: 12px;
-} */
-
 /* common columns classes */
 .clearfix::after{
     content: "";
@@ -93,13 +89,17 @@ a{
     padding: 5px 15px;
 }
 
-.btn-white{
-    color: black;
-    border: 1px solid black;
+.btn-large{
+    padding: 5px 50px;
 }
 
-.btn-extralarge{
-    padding: 5px 50px;
+.btn-white{
+    color: black;
+    background-color: white;
+}
+
+.btn-white:hover{
+    background-color: lightgray;
 }
 
 /* HEADER */
@@ -242,7 +242,7 @@ span.arrow{
 .col-plan{
     width: 30%;
     border: 1px solid #d6d6d8;
-    height: 800px;
+    padding-bottom: 50px;
 }
 
 .margin-col-center{
@@ -338,6 +338,10 @@ span.arrow{
     padding: 20px 0;
 }
 
+.col-partner-text .btn-white{
+    border: 1px solid black;
+}
+
 
 /* operations section */
 .operations-row{
@@ -354,6 +358,145 @@ span.arrow{
     padding: 20px 0;
 }
 
+/* Dropbox team */
+.drop-team{
+    padding-top: 50px;
+}
 
+.find-out{
+    width: 50%;
+    padding-bottom: 30px;
+}
+
+.find-out h2{
+    padding-bottom: 30px;
+}
+
+.col-logo-team{
+    width: 400px;
+    height: 400px;
+}
+
+.col-quotes{
+    width: calc(100% - 800px);
+    height: 400px;
+    background-color: #f5f5f5;
+    padding: 50px; 
+}
+
+.team-logo-img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.logo-centr{ 
+    position: absolute;
+    width: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+}
+
+
+/* background color logo team */
+#bgr-green{
+    background-color: #a2d39b;
+    border: 10px solid #d0e9cd;
+}
+
+#bgr-burgundy{
+    background-color: #61082b;
+}
+
+#bgr-lightblue{
+    background-color: #0093ce;
+}
+
+#bgr-red{
+    background-color: #ff1c1c;
+}
+
+#bgr-dark-red{
+    background-color: #d50a1f;
+}
+
+#bgr-pastel-blue{
+    background-color: #b5d0e7;
+}
+
+#bgr-blue{
+    background-color: #0c2481;
+}
+
+#bgr-yellow{
+    background-color: #fed830;
+}
+
+.logo-quotes-img{
+    width: 100px;
+}
+
+.logo-quotes-img::after{
+    content: "";
+    display: block;
+    width: 40px;
+    border-bottom: 1px solid #d6d6d8;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.text-quotes > p{
+    padding-bottom: 50px;
+}
+
+/* companies section */
+.cta-companies{
+    padding: 100px 0;
+}
+
+.col-companies-text,
+.col-companies-btn{
+    width: 50%;
+}
+
+.col-companies-text{
+    color: #61082b;
+}
+
+.col-companies-btn{
+    text-align: right;
+}
+
+/* faq section */
+.faq{
+    padding:50px 0;
+}
+
+.faq h2{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d6d6d8;
+}
+
+.question-row{
+    border-bottom: 1px solid #d6d6d8;
+}
+
+.col-question{
+    width: 80%;
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+.col-angle{
+    width: 20%;
+    text-align: right;
+    padding: 30px;
+}
 
 /* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+}
