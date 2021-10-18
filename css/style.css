@@ -498,5 +498,44 @@ span.arrow{
 /* FOOTER */
 footer{
     background-color: black;
+}
+
+footer h3{
     color: white;
+    padding-bottom: 20px;
+}
+
+.col-useful-links{
+    width: 20%;
+    padding-top: 80px;
+}
+
+.col-useful-links ul li{
+    line-height: 25px;
+}
+
+.col-useful-links a{
+    color: white;
+    font-size: 12px;
+}
+
+.col-useful-links:first-child::after{
+    content: "";
+    display: block;
+    width: 100px;
+    border-bottom: 1px solid white;
+    margin-top: 70px;
+}
+
+.globe,
+.language{
+    color: #595959;
+}
+
+.language{
+    font-size: 12px;
+}
+
+.footer-links-row{
+    padding-bottom: 30px;
 }
