@@ -20,10 +20,6 @@ body{
 .main-container{
     width: 60%;
     margin: 0 auto;
-
-
-    /* test */
-    height: 500px;
 }
 
 img{
@@ -38,6 +34,16 @@ a{
     text-decoration: none;
 }
 
+.bold-text{
+    font-weight: bold;
+    padding:10px 0;
+}
+
+.text-gray{
+    color: #677784;
+    padding-bottom: 35px;
+}
+
 .brg-ligthblue{
     background-color: #b5d0e7;
 }
@@ -47,9 +53,13 @@ a{
     color: #0061ff;
 }
 
-.f-s-12{
-    font-size: 12px;
+.underline{
+    text-decoration: underline;
 }
+
+/* .f-s-12{
+    font-size: 12px;
+} */
 
 /* common columns classes */
 .clearfix::after{
@@ -67,6 +77,7 @@ a{
     display: inline-block;
     line-height: normal;
     font-size: 12px;
+    text-align: center;
 }
 
 .btn-blue{
@@ -82,8 +93,9 @@ a{
     padding: 5px 15px;
 }
 
-.btn-large{
-    padding: 5px 30px;
+.btn-white{
+    color: black;
+    border: 1px solid black;
 }
 
 .btn-extralarge{
@@ -147,6 +159,9 @@ header li:hover{
 
 
 /* MAIN */
+main h3{
+    font-size: 20px;
+}
 main h2{
     font-size: 30px;
 }
@@ -178,13 +193,23 @@ main h2{
 
 .start-or-cancel p{
     padding-top: 10px;
+    font-size: 12px;
 }
 
 span.arrow{
     font-size: 30px;
 }
 
-/* business plan */
+/* business plan section*/
+
+.business-plan{
+    font-size: 12px;
+}
+
+.business-plan li{
+    padding-left: 20px;
+}
+
 .invoice{
     margin-top: 50px;
     margin-bottom: 30px;
@@ -196,6 +221,10 @@ span.arrow{
     height: 15px;
     border-radius: 50%;
     vertical-align: middle;
+}
+
+.radio-box:hover{
+    cursor: pointer;
 }
 
 .radio-blue{
@@ -233,27 +262,7 @@ span.arrow{
     padding-right: 20px;
 }
 
-main h3{
-    font-size: 20px;
-}
-
 .info-plan-row ul li{
-    font-size: 12px;
-    margin-bottom: 20px;
-}
-
-.bold-text{
-    font-weight: bold;
-    padding:10px 0;
-}
-
-.text-gray{
-    color: #677784;
-    padding-bottom: 35px;
-}
-
-.info-plan-row .btn-large{
-    margin-top: 30px;
     margin-bottom: 20px;
 }
 
@@ -265,39 +274,84 @@ main h3{
     margin: 20px 0;
 }
 
+.try-free a{
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
 .characteristics-plan-row h4{
     margin-bottom: 20px;
 }
 
 .characteristics-plan-row ul li{
     padding-bottom: 15px;
-    font-size: 12px;
-
-    
 }
 
 .characteristics-plan-row .check-blue{
     color: #0464ff;
 }
 
-.check-blue-uno,
-.text-uno{
-    display: inline-block;
+.icon{
+    margin-left: -20px;
+}
+
+.enterprise-content{
+    padding: 20px;
 }
 
 .contact-for-price{
     border: 1px solid #d6d6d8;
-    margin: 40px 0;
+    margin-top: 40px;
 }
 
 
 .col-description{
     width: 70%;
+    line-height: 30px;
 }
 
 .col-contact-office{
     width: 30%;
     text-align: right;
+}
+
+/* find a partner section */
+.find-partner{
+    padding-top: 130px;
+    padding-bottom: 80px;
+}
+
+.col-partner-img,
+.col-partner-text{
+    width: 50%;
+}
+
+.col-partner-text{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.col-partner-text p{
+    padding: 20px 0;
+}
+
+
+/* operations section */
+.operations-row{
+    margin-top: 30px;
+    margin-bottom: 80px;
+    font-size: 12px;
+}
+
+.col-operations{
+    width: 30%;
+}
+
+.operations-text p{
+    padding: 20px 0;
 }
 
 
