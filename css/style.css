@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
 }
 
 
@@ -99,7 +98,7 @@ a{
 }
 
 .btn-white:hover{
-    background-color: lightgray;
+    background-color: rgb(240, 239, 239);
 }
 
 /* HEADER */
@@ -117,7 +116,8 @@ header{
 
 header ul li{
     display: inline-block;
-    padding: 0 20px;
+    margin: 0 20px;
+    line-height: 75px;
 }
 
 header a{
@@ -155,9 +155,6 @@ header li:hover{
     padding-left: 10px;
 }
 
-
-
-
 /* MAIN */
 main h3{
     font-size: 20px;
@@ -176,6 +173,7 @@ main h2{
     font-size: 60px;
 }
 
+/* col jumbotron */
 .col-cta{
     width: 30%;
     padding-top: 65px;
@@ -187,6 +185,7 @@ main h2{
     top: 70px;
 }
 
+/* cta jumbotron */
 .start-or-cancel{
     padding: 30px 0;
 }
@@ -198,6 +197,10 @@ main h2{
 
 span.arrow{
     font-size: 30px;
+}
+
+span.arrow:hover{
+    cursor: pointer;
 }
 
 /* business plan section*/
@@ -215,6 +218,7 @@ span.arrow{
     margin-bottom: 30px;
 }
 
+/* radio bottom */
 .radio-box{
     display: inline-block;
     width: 15px;
@@ -239,10 +243,12 @@ span.arrow{
     margin-left: 20px;
 }
 
+/* business plan column */
 .col-plan{
     width: 30%;
     border: 1px solid #d6d6d8;
     padding-bottom: 50px;
+    min-height: 800px;
 }
 
 .margin-col-center{
@@ -256,6 +262,7 @@ span.arrow{
 }
 
 
+/* plan content */
 .plan-content{
     padding-top: 20px;
     padding-left:20px;
@@ -302,6 +309,8 @@ span.arrow{
     padding: 20px;
 }
 
+
+/* business plan enterprise column */
 .contact-for-price{
     border: 1px solid #d6d6d8;
     margin-top: 40px;
@@ -324,6 +333,7 @@ span.arrow{
     padding-bottom: 80px;
 }
 
+/* column find a parter */
 .col-partner-img,
 .col-partner-text{
     width: 50%;
@@ -365,13 +375,14 @@ span.arrow{
 
 .find-out{
     width: 50%;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .find-out h2{
     padding-bottom: 30px;
 }
 
+/* dropbox team column */
 .col-logo-team{
     width: 400px;
     height: 400px;
@@ -434,6 +445,7 @@ span.arrow{
     background-color: #fed830;
 }
 
+/* dropbox team quotes */
 .logo-quotes-img{
     width: 100px;
 }
@@ -456,6 +468,7 @@ span.arrow{
     padding: 100px 0;
 }
 
+/* col cta companies */
 .col-companies-text,
 .col-companies-btn{
     width: 50%;
@@ -483,6 +496,7 @@ span.arrow{
     border-bottom: 1px solid #d6d6d8;
 }
 
+/* faq column */
 .col-question{
     width: 80%;
     font-weight: bold;
@@ -495,6 +509,10 @@ span.arrow{
     padding: 30px;
 }
 
+.fa-angle-down:hover{
+    cursor: pointer;
+}
+
 /* FOOTER */
 footer{
     background-color: black;
@@ -505,6 +523,7 @@ footer h3{
     padding-bottom: 20px;
 }
 
+/* column footer */
 .col-useful-links{
     width: 20%;
     padding-top: 80px;
@@ -527,15 +546,20 @@ footer h3{
     margin-top: 70px;
 }
 
+/* language row */
 .globe,
-.language{
+.select-language{
     color: #595959;
 }
 
-.language{
+.select-language{
     font-size: 12px;
 }
 
 .footer-links-row{
     padding-bottom: 30px;
+}
+
+.fa-sort-up:hover{
+    cursor: pointer;
 }
